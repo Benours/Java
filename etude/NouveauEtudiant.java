@@ -1,7 +1,5 @@
 package etude;
 
-import java.util.Scanner;
-
 public class NouveauEtudiant{
 	public static void main(String[] a) throws java.io.IOException {
 		Etudiant e1 = new Etudiant("Benjamin", 1997, CodeInscription.PREMIERE_INSCRIPTION, CodePays.FRANCAIS);

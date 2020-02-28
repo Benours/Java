@@ -1,6 +1,5 @@
 package etude;
 
-import java.util.Scanner;
 import java.util.*;
 
 public class Etudiant{
@@ -55,6 +54,11 @@ public class Etudiant{
 
 	public int getDateDeNaissance(){
 		return dateDeNaissance;
+	}
+	
+	public void getEtudiant() {
+		System.out.println(nom);
+		System.out.println(dateDeNaissance);
 	}
 
 	private int Age(){
