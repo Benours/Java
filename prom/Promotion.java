@@ -14,8 +14,16 @@ public class Promotion {
 		annee = an;
 	}
 	
-	public void add(Etudiant e) {
+	public void Inscrire(Etudiant e) {
 		col.add(e);
+	}
+	
+	public float MoyGen(ArrayList<Etudiant> col) {
+		float moyGen = 0;
+		for (int i = 0; i < col.size(); i++) {
+			moyGen = moyGen + col.get(i).Moyenne();
+		}
+		return moyGen / col.size();
 	}
 
 	public int getAnnee() {

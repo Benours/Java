@@ -43,13 +43,13 @@ public class Etudiant{
 	public void setNotes(int l, float note, String x){
 			notes[l] = new Resultat(x, note);
 
-		//Scanner sc = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 
-		//System.out.println("Entrez les notes :");
+		System.out.println("Entrez les notes :");
 
-		//notes[0].setNote(sc.nextFloat());
-		//notes[1].setNote(sc.nextFloat());
-		//notes[2].setNote(sc.nextFloat());
+		notes[0].setNote(sc.nextFloat());
+		notes[1].setNote(sc.nextFloat());
+		notes[2].setNote(sc.nextFloat());
 	}
 
 	public int getDateDeNaissance(){
@@ -58,7 +58,7 @@ public class Etudiant{
 	
 	public void getEtudiant() {
 		System.out.println(nom);
-		System.out.println(dateDeNaissance);
+		System.out.println(Age());
 	}
 
 	private int Age(){
